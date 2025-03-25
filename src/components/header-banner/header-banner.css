@@ -1,0 +1,40 @@
+.header {
+  width: calc(100% + 40px);
+  margin-bottom: 16px;
+}
+
+.banner {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  aspect-ratio: 2;
+}
+
+.profile-pic-username-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 16px;
+}
+
+.profile-pic {
+  margin-top: -75px;
+  flex-grow: 0;
+  height: 130px;
+  width: 130px;
+}
+
+.header__title {
+    margin: 0;
+    font-size: 21px;
+    color: #EAAEAD;
+    margin-bottom: 4px;
+}
+
+.header__text {
+    margin: 0;
+    font-size: 16px;
+    color: #EAAEAD;
+    margin-bottom: 8px;
+}
