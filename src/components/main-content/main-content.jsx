@@ -3,7 +3,7 @@ import main__content_image from "../../assets/images/main-content-image.png";
 
 const Main_content = () => {
   return (
-    <div className="container">
+    <div style={{ paddingBottom: "45px" }} className="container">
       <div className="main-content">
         <p className="main-content__text">
           Welcome Gooner. How can Mommy Fionna assist you today?
