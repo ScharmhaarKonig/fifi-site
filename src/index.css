@@ -12,6 +12,18 @@
   font-display: swap;
 }
 
+@keyframes shaking {
+  0% , 20%, 100% {
+    transform: translateX(0);
+  }
+  2%, 6%, 10%, 14%, 18% {
+    transform: translateX(-5px);
+  }
+  4%, 8%, 12%, 16% {
+    transform: translateX(5px);
+  }
+}
+
 :root {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -31,6 +43,10 @@ a {
   text-decoration: inherit;
 }
 
+.btn {
+  animation: shaking 8s infinite;
+  animation-timing-function: ease-in-out;
+}
 
 body {
   margin: 0;

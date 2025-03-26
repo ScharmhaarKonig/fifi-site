@@ -1,7 +1,7 @@
 .container {
   max-width: 1200px;
   margin: auto;
-  padding: 0 20px;
+  padding: 0 20px 60px;
 }
 
 .main-content {
@@ -12,6 +12,7 @@
 .main-content__image {
   display: flex;
   justify-content: center;
+  margin-bottom: 45px;
 }
 
 .main-content__text {
@@ -27,6 +28,7 @@
 .main-content__link-container {
   display: flex;
   justify-content: center;
+  margin-bottom: 45px;
 }
 
 .main-content__redirector-button {
@@ -46,7 +48,7 @@
   content: "";
   position: absolute;
   background-size: cover;
-  background-image: url("../../assets/images/8d6f9b9520cd97c5c7c5dbefc303fd94.png");
+  background-image: url("../../assets/images/paste-it-picture.png");
   height: 45px;
   width: 45px;
   background-repeat: no-repeat;

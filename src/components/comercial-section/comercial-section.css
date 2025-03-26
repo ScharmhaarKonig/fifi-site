@@ -1,0 +1,78 @@
+.comercial-content__text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  margin-bottom: 16px;
+}
+
+.comercial-content__text {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+  text-align: center;
+  color: #eaaead;
+}
+
+.comercial-content__image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 58px;
+}
+
+.comercial-content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  list-style: none;
+}
+
+.comercial-content__item {
+  background-color: #de65fe;
+  border-radius: 36px;
+  margin: 0;
+  padding: 4px 28px 4px 69px;
+}
+
+.comercial-content__redirector {
+  color: #987fa9;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.comercial-content-redirector__title {
+  margin: 0;
+  font-size: 21px;
+}
+
+.comercial-content-redirector__text {
+  margin: 0;
+  font-size: 12px;
+}
+
+.comercial-content__item--twitter,
+.comercial-content__item--throne {
+  position: relative;
+}
+
+.comercial-content__item--twitter::before {
+  background-image: url("../../assets/images/twitter-pfp.jpg");
+}
+
+.comercial-content__item--throne::before {
+  background-image: url("../../assets/images/throne-pfp.jpeg");
+}
+
+.comercial-content__item--twitter::before,
+.comercial-content__item--throne::before {
+  content: "";
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 360px;
+  left: 10px;
+  top: 20%;
+}

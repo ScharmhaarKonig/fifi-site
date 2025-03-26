@@ -12,9 +12,9 @@ const Main_content = () => {
           Are you here to be obedient...?
         </p>
         <div className="main-content__image">
-          <img src={main__content_image} alt="" />
+          <img src={main__content_image} alt="main content image" />
         </div>
-        <div className="main-content__link-container">
+        <div className="btn main-content__link-container">
           <a
             target="_blank"
             rel="noopener noreferrer"
