@@ -31,6 +31,11 @@
   border-radius: 36px;
   margin: 0;
   padding: 4px 28px 4px 69px;
+  transition: padding 0.3s ease-in-out;
+}
+
+.comercial-content__item:hover {
+  padding: 6px 34px 6px 75px;
 }
 
 .comercial-content__redirector {
