@@ -18,7 +18,7 @@ const Main_content = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://justpaste.it/gypv7"
+            href="https://justpaste.it/jbg9i"
             className="main-content__redirector-button"
           >
             Mommy's goon $ession Info

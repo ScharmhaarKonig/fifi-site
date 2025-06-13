@@ -36,7 +36,7 @@ const Comercial_section = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://throne.com/fionna_420"
+              href="https://throne.com/mommy_toga"
               className="comercial-content__redirector"
             >
               <h3 className="comercial-content-redirector__title">
