@@ -27,7 +27,7 @@
 }
 
 .comercial-content__item {
-  background-color: #F7A9E4;
+  background-color: #DE6256;
   border-radius: 36px;
   margin: 0;
   padding: 4px 28px 4px 69px;
@@ -39,7 +39,7 @@
 }
 
 .comercial-content__redirector {
-  color: #780C45;
+  color: #650C2C;
   margin: 0;
   display: flex;
   flex-direction: column;

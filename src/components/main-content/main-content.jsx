@@ -1,5 +1,5 @@
 import "./main-content.css";
-import main__content_image from "../../assets/images/main-content-image.png";
+import main__content_image from "../../assets/images/main-content-image.webp";
 
 const Main_content = () => {
   return (

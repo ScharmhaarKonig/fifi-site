@@ -1,4 +1,4 @@
-import Banner from "../../assets/images/top-img.jpg";
+import Banner from "../../assets/images/top-img.webp";
 import ProfilePic from "../../assets/images/ProfilePic.png";
 import X from "../../assets/images/X.svg";
 import "./header-banner.css";

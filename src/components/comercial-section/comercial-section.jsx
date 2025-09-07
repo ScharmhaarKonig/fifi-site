@@ -1,5 +1,5 @@
 import "./comercial-section.css";
-import comercial_pic from "../../assets/images/comercial-section-pic.png";
+import comercial_pic from "../../assets/images/comercial-section-pic.webp";
 
 const Comercial_section = () => {
   return (
